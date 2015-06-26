@@ -38,7 +38,7 @@ import org.wltea.analyzer.core.Lexeme;
 
 /**
  * IK分词器 Lucene Tokenizer适配器类
- * 兼容Lucene 4.0版本
+ * 兼容Lucene 5.2.0版本
  */
 public final class IKTokenizer extends Tokenizer {
 	
@@ -55,7 +55,7 @@ public final class IKTokenizer extends Tokenizer {
 	private int endPosition;
 	
 	/**
-	 * Lucene 4.0 Tokenizer适配器类构造函数
+	 * Lucene 5.2.0 Tokenizer适配器类构造函数
 	 * @param in
 	 * @param useSmart
 	 */
@@ -94,10 +94,6 @@ public final class IKTokenizer extends Tokenizer {
 		return false;
 	}
 	
-	/*
-	 * (non-Javadoc)
-	 * @see org.apache.lucene.analysis.Tokenizer#reset(java.io.Reader)
-	 */
 	@Override
 	public void reset() throws IOException {
 		super.reset();
