@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>cn.strong</groupId>
 	<artifactId>IKAnalyzer</artifactId>
-	<version>6.6.0-SNAPSHOT</version>
+	<version>6.6.0</version>
 	<properties>
 		<java.version>1.8</java.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
