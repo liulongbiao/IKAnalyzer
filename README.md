@@ -1,6 +1,6 @@
 # IKAnalyzer
 
-IKAnalyzer for lucene 6.6.0
+IKAnalyzer is a Lucene analyzer for chinese froked from OSC and adopt for Lucene 6.
 
 Forked from [origin IKAnalyzer](https://git.oschina.net/wltea/IK-Analyzer-2012FF.git) ,
 and modified to support lucene 6.6.0 .
